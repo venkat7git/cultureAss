@@ -1,0 +1,119 @@
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f4b66;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-bottom: 15px;
+}
+
+.form-container{
+    background: #1c2841;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    padding: 40px 10px 40px 10px;
+    border-radius: 10px;
+    
+}
+    
+
+
+.text-area{
+    margin-top: 4px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid #f0ffff;
+    color: #f0ffff;
+    font-weight: bold;
+}
+
+
+.button-container{
+    text-align: center;
+    background: #1c2841;
+}
+
+.submit-button{
+    margin-top: 15px;
+    width: 100px;
+    padding: 7px;
+    background: #1c2841;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+label{
+    color: #ffffff;
+    font-family: "San Serif";
+    padding-left: 7px;
+    font-size: 12px;
+
+}
+
+.input-container{
+    text-align: left;
+}
+input{
+    margin-top: 4px;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    color: #f0ffff;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    font-size: 13px;
+    padding: 3px 3px 3px 10px;
+}
+
+.success-image{
+    width: 100px;
+}
+.success-heading{
+    color: rgb(33, 150, 72);
+    font-weight: bold;
+}
+.success-container{
+   
+    padding: 20px;
+    text-align: center;
+}
+.close-container{
+    text-align: end;
+    
+    
+}
+.trigger-button{
+    margin-right: 4px;
+    font-size: 10px;
+    background: transparent;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.popup-container{
+    background-color: transparent;
+}
+
+.err-para{
+    font-size: 14px;
+    color: #f40707;
+    padding-left: 6px;
+    margin-bottom: 15px;
+}
